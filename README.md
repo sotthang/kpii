@@ -1,5 +1,11 @@
 # KPII (Korean Personal Information Identifier)
 
+한국어 개인정보 식별 및 마스킹을 위한 Python 패키지입니다.
+
+[📚 문서 보기](https://sotthang.github.io/kpii)
+
+## 주요 기능
+
 한국어 텍스트에서 개인정보를 탐지하고 마스킹 처리하는 Python 라이브러리입니다.
 
 ## 설치

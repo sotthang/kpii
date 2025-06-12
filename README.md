@@ -62,34 +62,6 @@ poetry install
 poetry install --with dev
 ```
 
-## 테스트
-
-### 테스트 실행
-
-```bash
-# 모든 테스트 실행
-poetry run pytest
-
-# 커버리지 리포트와 함께 테스트 실행
-poetry run pytest --cov=kpii
-
-# 특정 테스트 파일만 실행
-poetry run pytest tests/test_detector.py
-
-# 특정 테스트 함수만 실행
-poetry run pytest tests/test_detector.py::test_detect_rrn
-```
-
-### 테스트 커버리지 확인
-
-```bash
-# HTML 형식의 커버리지 리포트 생성
-poetry run pytest --cov=kpii --cov-report=html
-
-# 터미널에서 커버리지 리포트 확인
-poetry run pytest --cov=kpii --cov-report=term-missing
-```
-
 ## 라이선스
 
 MIT License
